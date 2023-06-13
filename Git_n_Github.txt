@@ -3,6 +3,7 @@ git status
 git add .   /  git add (name of file)
 git commit -m  "message"
 git restore --staged "file name" 
+
 git log
 
 git reset hashcode --> it will unstage all the commits above this hascode 	
@@ -11,3 +12,10 @@ git add .
 git stash --> staged changes are not commited but are saved in the stash area (or separate history area)
 git stash pop --> it will bring changes again to stagging area
 git stash clear --> clearing the stash 	
+
+
+git remote add origin url(https://github.com/Cancodeo/sample) -> "remote" means connecting git to remote url
+								 "origin" represents the name of the url
+git remote -v --> list all the urls connected to current folder
+
+git push origin master -> push the changes of origin in master branch
