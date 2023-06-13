@@ -1,4 +1,4 @@
-new folder -> go inside -> git init
+	new folder -> go inside -> git init
 git status
 git add .   /  git add (name of file)
 git commit -m  "message"
@@ -13,9 +13,16 @@ git stash --> staged changes are not commited but are saved in the stash area (o
 git stash pop --> it will bring changes again to stagging area
 git stash clear --> clearing the stash 	
 
+git clone [url] ->retrieve an entire repository from a hosted location via URL
 
 git remote add origin url(https://github.com/Cancodeo/sample) -> "remote" means connecting git to remote url
 								 "origin" represents the name of the url
 git remote -v --> list all the urls connected to current folder
 
 git push origin master -> push the changes of origin in master branch
+
+git branch branch_name    -> new branch
+git branch                -> list your branches. a * will appear next to the currently active branch
+git branch [branch-name]  -> create a new branch at the current commit
+git checkout              -> switch to another branch and check it out into your working directory
+
