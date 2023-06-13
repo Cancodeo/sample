@@ -1,0 +1,13 @@
+new folder -> go inside -> git init
+git status
+git add .   /  git add (name of file)
+git commit -m  "message"
+git restore --staged "file name" 
+git log
+
+git reset hashcode --> it will unstage all the commits above this hascode 	
+
+git add .
+git stash --> staged changes are not commited but are saved in the stash area (or separate history area)
+git stash pop --> it will bring changes again to stagging area
+git stash clear --> clearing the stash 	
