@@ -26,3 +26,5 @@ git branch                -> list your branches. a * will appear next to the cur
 git branch [branch-name]  -> create a new branch at the current commit
 git checkout              -> switch to another branch and check it out into your working directory
 
+ git rev-parse --is-inside-work-tree  -> to Check if the Current Directory is a Git Repository
+ git config --list                  -> list the settings(will find username n email)
